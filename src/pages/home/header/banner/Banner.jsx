@@ -7,7 +7,7 @@ const Banner = () => {
             <div className=" flex gap-2 justify-center items-center w-full h-full " >
                 <BannerLeft></BannerLeft>
                 <BannerRight></BannerRight>
-            </div>
+            </div> 
         </div> 
     );
 };
