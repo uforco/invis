@@ -2,3 +2,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.reaclogo {
+	-webkit-animation: reaclogo 10s ;			
+	-moz-animation: reaclogo 10s ;
+	-ms-animation: reaclogo 10s ; 			
+	animation: reaclogo 10s ;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;		
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear	
+}
+
+@keyframes reaclogo {
+    0%{ 
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+    100%{ 
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+.withanimation {
+	-webkit-animation: withanimation 2s ;			
+	-moz-animation: withanimation 2s ;
+	-ms-animation: withanimation 2s ; 			
+	animation: withanimation 2s ;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;		
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear;
+    overflow: hidden;
+}
+
+@keyframes withanimation {
+    0%{ 
+        width: 0px;
+        height: 0px;
+    }
+    100%{ 
+        width: 70px;
+        height: 70px;
+    }
+}
+
