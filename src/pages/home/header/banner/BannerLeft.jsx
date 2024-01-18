@@ -4,7 +4,7 @@ const BannerLeft = () => {
   return (
     <div className=" w-auto h-full  ">
       <div className=" relative h-full w-[537px] ">
-        <div className="absolute flex flex-col pl-1 pr-24 justify-center gap-8  top-1/2 rounded-tr-[50px] -translate-y-1/2  w-[720px] bg-white ">
+        <div className="absolute py-10 flex flex-col pl-1 pr-32 justify-center gap-10  top-1/2 rounded-tr-[50px] -translate-y-1/2  w-[736px] bg-white ">
           <h2 className=" font-semibold text-[#16205F] font-Poppins text-6xl leading-tight tracking-wide ">
             Building dev team, Quickly and Affordably
           </h2>
