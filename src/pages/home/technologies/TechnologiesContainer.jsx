@@ -26,8 +26,8 @@ const TechnologiesContainer = () => {
               <img src={express} alt="" />
             </div>
           </div>
-          <div className=" h-[40px] flex items-end overflow-hidden  ">
-            <h2 className=" text-[#424242] text-3xl   ">
+          <div className=" h-[40px] flex -mb-2 items-end overflow-hidden  ">
+            <h2 className=" text-[#424242] text-4xl ">
               <Typewriter cursor={false} speed={300} text="press" />
             </h2>
           </div>
@@ -45,7 +45,7 @@ const TechnologiesContainer = () => {
           </div>
         </div>
         <div className=" flex flex-row-reverse gap-1 justify-center items-center ">
-          <div className=" flex justify-center items-center h-[80px] w-[80px] " >
+          <div className=" flex justify-center items-center h-[80px] w-[80px] ">
             <div className=" withanimation ">
               <img src={nodejs} alt="" />
             </div>
