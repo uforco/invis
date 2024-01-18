@@ -1,14 +1,16 @@
 import Banner from "./../header/banner/Banner";
 import WidthControl from "./../../../layout/widthControl/WidthControl";
 import BannerFooter from "../header/bannerfooter/BannerFooter";
+import EasyProcess from "./../easyProcessSec/EasyProcess";
 const Home = () => {
   return (
-    <WidthControl>
-      <div>
-        <Banner></Banner>
-        <BannerFooter></BannerFooter>
-      </div>
-    </WidthControl>
+    <div>
+      <WidthControl>
+          <Banner></Banner>
+          <BannerFooter></BannerFooter>
+      </WidthControl>
+      <EasyProcess></EasyProcess>
+    </div>
   );
 };
 
