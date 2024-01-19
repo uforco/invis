@@ -2,7 +2,7 @@ import imgconnect from "./../../assets/ConnectWith/leftimgconnect.png";
 
 const ConnectWithLeftSide = () => {
   return (
-    <div className=" col-span-2 " >
+    <div className=" w-full " >
       <img className=" w-full  " src={imgconnect} alt="" />
     </div>
   );

@@ -5,7 +5,7 @@ const ConnectWithHireToday = () => {
   return (
     <div className=" py-10 " >
       <WidthControl>
-        <div className=" grid grid-cols-3 " >
+        <div className=" flex justify-center items-center " >
           <ConnectWithLeftSide></ConnectWithLeftSide>
           <ConnectWithRightSide></ConnectWithRightSide> 
         </div>
