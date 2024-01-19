@@ -4,6 +4,7 @@ import BannerFooter from "../header/bannerfooter/BannerFooter";
 import EasyProcess from "./../easyProcessSec/EasyProcess";
 import Expertise from "./../expertise/Expertise";
 import Technologies from './../technologies/Technologies';
+import ConnectWithHireToday from './../../../component/ConnectSecBox/ConnectWithHireToday';
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
       <EasyProcess></EasyProcess>
       <Expertise></Expertise>
       <Technologies></Technologies>
+      <ConnectWithHireToday></ConnectWithHireToday>
     </div>
   );
 };

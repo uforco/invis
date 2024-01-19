@@ -8,7 +8,7 @@ const TechnologiesContainer = () => {
   return (
     <div className=" mt-10 ">
       <div className=" grid font-Poppins grid-cols-4 gap-2 ">
-        <div className=" flex gap-3 justify-center items-center ">
+        <div className=" flex gap-1 justify-center items-center ">
           <div className=" flex justify-center items-center h-[80px] w-[80px] ">
             <div className=" withanimation ">
               <img src={mongodb} alt="" />
