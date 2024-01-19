@@ -1,10 +1,13 @@
+import ConnectWithFromPage from './ConnectWithFromPage';
 const ConnectWithRightSide = () => {
   return (
-    <div className=" col-span-1 py-10">
+    <div className=" col-span-1">
       <div className=" relative w-full h-full flex justify-center items-center ">
-        <div className=" absolute bg-white p-10 w-[600px] font-Poppins text-5xl font-semibold ">
-          Connect With Your Next Great Hire Today!
-          <h2 className=" mt-8 ">Coming Soon ..........</h2>
+        <div className=" absolute rounded-tl-[60px] bg-white right-0 p-16 px-20 pr-0 font-Poppins  font-semibold ">
+          <h1 className=" text-[#16205F] text-[38px] leading-[50px] font-semibold " >Connect With Your <br /> Next Great Hire Today!</h1>
+          <div>
+              <ConnectWithFromPage></ConnectWithFromPage>
+          </div>
         </div>
       </div>
     </div>
