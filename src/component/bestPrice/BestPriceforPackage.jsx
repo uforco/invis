@@ -1,5 +1,6 @@
 import WidthControl from "./../../layout/widthControl/WidthControl";
 import PriceCard from "./PriceCard";
+import PackageDetails from './PackageDetails';
 
 const BestPriceforPackage = () => {
   const pricedetails = [
@@ -61,7 +62,7 @@ const BestPriceforPackage = () => {
       <WidthControl>
         <div className=" my-24 mt-14 " >
           <div className=" flex justify-center items-center flex-col py-5  w-full ">
-            <h4 className=" text-lg font-semibold mb-4 " >Specialized</h4>
+            <h4 className=" text-lg font-semibold mb-2 capitalize " >Package</h4>
             <h2 className=" capitalize pb-14  font-Poppins text-[#16205F] text-[42px] font-semibold ">
               the best price
             </h2>
