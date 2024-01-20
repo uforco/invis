@@ -5,6 +5,7 @@ import EasyProcess from "./../easyProcessSec/EasyProcess";
 import Expertise from "./../expertise/Expertise";
 import Technologies from './../technologies/Technologies';
 import ConnectWithHireToday from './../../../component/ConnectSecBox/ConnectWithHireToday';
+import BestPriceforPackage from './../../../component/bestPrice/BestPriceforPackage';
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
       </WidthControl>
       <EasyProcess></EasyProcess>
       <Expertise></Expertise>
+      <BestPriceforPackage></BestPriceforPackage>
       <Technologies></Technologies>
       <ConnectWithHireToday></ConnectWithHireToday>
     </div>
