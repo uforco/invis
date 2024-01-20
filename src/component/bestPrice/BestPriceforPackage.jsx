@@ -29,7 +29,7 @@ const BestPriceforPackage = () => {
   return (
     <div>
       <WidthControl>
-        <div>
+        <div className=" w-full border-2 border-black " >
           <div className=" flex justify-center py-5 items-center w-full ">
             <h2 className=" capitalize font-Poppins text-[#16205F] text-[42px] font-semibold ">
               the best price for package
