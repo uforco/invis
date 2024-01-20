@@ -15,7 +15,7 @@ const ConnectWithFromPage = () => {
       <form className=" py-2  w-full ">
         <div className=" flex flex-col w-full pt-8 py-3 gap-6">
           <div className=" flex justify-between w-full items-center gap-5 ">
-            <div className=" w-[25 0px] " >
+            <div className=" w-[250px] " >
               <Typography
                 variant="h6"
                 color="blue-gray"
@@ -32,7 +32,7 @@ const ConnectWithFromPage = () => {
                 }}
               />
             </div>
-            <div className=" w-[25 0px] " >
+            <div className=" w-[250px] " >
               <Typography
                 variant="h6"
                 color="blue-gray"
@@ -51,7 +51,7 @@ const ConnectWithFromPage = () => {
             </div>
           </div>
           <div className=" flex justify-between w-full items-center gap-5 ">
-            <div className=" w-[25 0px] " >
+            <div className=" w-[250px] " >
               <Typography
                 variant="h6"
                 color="blue-gray"
@@ -68,7 +68,7 @@ const ConnectWithFromPage = () => {
                 }}
               />
             </div>
-            <div className=" w-[25 0px] " >
+            <div className=" w-[250px] " >
               <Typography
                 variant="h6"
                 color="blue-gray"

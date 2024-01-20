@@ -1,6 +1,5 @@
 import WidthControl from "./../../layout/widthControl/WidthControl";
 import PriceCard from "./PriceCard";
-import PackageDetails from './PackageDetails';
 
 const BestPriceforPackage = () => {
   const pricedetails = [
