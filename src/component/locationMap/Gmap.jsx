@@ -13,9 +13,7 @@ const Gmap = () => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <Marker position={[23.822654, 90.393418]}>
-        <Popup>
-          Invis | ECB Chattar
-        </Popup>
+        <Popup>Invis | ECB Chattar</Popup>
       </Marker>
     </MapContainer>
   );
