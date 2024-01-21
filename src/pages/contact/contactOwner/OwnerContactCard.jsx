@@ -3,25 +3,23 @@ const OwnerContactCard = ({ data, inx }) => {
   let x = inx + 1;
   return (
     <div
-      className={` ${
-        x % 2 == 0
-          ? "justify-center"
-          : x % 3 == 0
-          ? "justify-end"
-          : "justify-start"
-      } w-full flex  `}
+      className={` ${x > 1 ? "justify-end" : "justify-start"} w-full flex  `}
     >
       <div>
         <div
-          className={`flex justify-start items-center overflow-hidden ${
-            x % 2 == 0 ? " w-32 -ml-3  " : x % 3 == 0 ? "w-32 -ml-3  " : " w-40"
+          className={`flex justify-start  items-center overflow-hidden ${
+            x < 1 ? "w-32   " : " w-40"
           } h-32 `}
         >
-          <div className={`mb-5 `}>
+          <div
+            className={`mb-5 rounded-md ${
+              x > 1
+                ? "bg-gradient-to-br px-1 from-[#ffa319]  to-[#ffdb26]"
+                : "bg-transparent"
+            } p-2 overflow-hidden `}
+          >
             <img
-              className={` ${
-                x % 2 == 0 ? "w-24 " : x % 3 == 0 ? "w-24 " : "w-full"
-              } `}
+              className={` ${x > 1 ? "w-24 " : "w-full"} -mb-2 `}
               src={data?.employeeImage}
               alt=""
             />
