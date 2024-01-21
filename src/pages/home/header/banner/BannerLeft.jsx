@@ -15,7 +15,7 @@ const BannerLeft = () => {
             or scale to different needs quickly.
           </p>
           <Link to={""}>
-            <Button className=" relative transition group duration-500 ease-in-out shadow-sm shadow-[#ff99007a] flex justify-center items-center  gap-2 rounded-lg bg-gradient-to-r hover:bg-gradient-to-br p-4 from-[#f90]  to-[#F2CB00] text-sm text-white font-Poppins font-medium ">
+            <Button className=" relative transition group duration-500 ease-in-out shadow-sm shadow-[#ff99007a] flex justify-center items-center  gap-2 rounded-lg bg-gradient-to-r hover:bg-gradient-to-br p-4 from-[#f90] to-[#F2CB00] text-sm text-white font-Poppins font-medium ">
               <h2 className=" px-4 pr-10 ">Build a team</h2>
               <span className=" absolute transition ease-in-out top-1/2 -translate-y-1/2 group-hover:right-[24px] right-[28px] text-xl  ">
                 <FaArrowRightLong></FaArrowRightLong>
