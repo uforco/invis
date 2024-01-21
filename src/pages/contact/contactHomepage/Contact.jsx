@@ -3,6 +3,7 @@ import OurTitleSection from "../../../component/ourTitleSection/OurTitleSection"
 import headerimg from "./../../../assets/OurService/headerimg.png";
 import OurHeader from "./../../../component/ourHeader/OurHeader";
 import WidthControl from "./../../../layout/widthControl/WidthControl"; 
+import OwnerContact from './../contactOwner/OwnerContact';
 const Contact = () => {
   const herderData = {
     headerImg: headerimg,
@@ -25,7 +26,7 @@ const Contact = () => {
         </div>
       </WidthControl>
       <ConnectWithHireToday></ConnectWithHireToday>
-      
+      <OwnerContact></OwnerContact>
     </div>
   );
 };
