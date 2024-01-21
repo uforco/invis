@@ -9,7 +9,7 @@ const ConnectWithLeftSide = () => {
     <div className=" w-full " >
       {
         page === "contact"?
-          <div className=" w-[900px] rounded-br-[120px] rounded-md h-[900px] overflow-hidden " >
+          <div className=" w-[900px] rounded-br-[100px] rounded-md h-[900px] overflow-hidden " >
               <Gmap></Gmap>
           </div>
         :

@@ -4,6 +4,7 @@ import headerimg from "./../../../assets/OurService/headerimg.png";
 import OurHeader from "./../../../component/ourHeader/OurHeader";
 import WidthControl from "./../../../layout/widthControl/WidthControl"; 
 import OwnerContact from './../contactOwner/OwnerContact';
+import FollowUs from './../../../component/followus/FollowUs';
 const Contact = () => {
   const herderData = {
     headerImg: headerimg,
@@ -27,6 +28,11 @@ const Contact = () => {
       </WidthControl>
       <ConnectWithHireToday></ConnectWithHireToday>
       <OwnerContact></OwnerContact>
+      <WidthControl>
+        <div className=" mb-28 " >
+          <FollowUs iconSize={45} ></FollowUs>
+        </div>
+      </WidthControl>
     </div>
   );
 };

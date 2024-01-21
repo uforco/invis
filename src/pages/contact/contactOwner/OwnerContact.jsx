@@ -27,7 +27,7 @@ const OwnerContact = () => {
   ];
 
   return (
-    <div className=" my-20 " >
+    <div className=" my-10 " >
       <WidthControl>
         <div className=" grid gap-1 grid-cols-3 py-16 ">
           {employeeInfo?.map((item, inx) => (
