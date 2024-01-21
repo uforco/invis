@@ -1,6 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-
 const Gmap = () => {
   return (
     <MapContainer
@@ -9,7 +8,7 @@ const Gmap = () => {
       style={{ height: "100%", width: "100%", zIndex: "2" }}
     >
       <TileLayer
-        attribution="&copy; InVis"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <Marker position={[23.822654, 90.393418]}>
