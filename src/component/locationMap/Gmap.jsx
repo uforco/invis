@@ -4,8 +4,8 @@ import { Icon } from "leaflet";
 
 const Gmap = () => {
   const marklogo = new Icon({
-    iconUrl: "https://i.ibb.co/8cTBjfY/your-location.png",
-    iconSize: [38, 38],
+    iconUrl: "https://i.ibb.co/HN6s3KG/location-1.png",
+    iconSize: [56, 56],
   });
 
   return (
