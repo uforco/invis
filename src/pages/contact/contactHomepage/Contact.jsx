@@ -11,7 +11,6 @@ const Contact = () => {
     headerTitle: "Contact",
     description: `Fuel your success with our comprehensive IT and business solutions. Contact us today for innovative strategies and transformative technologies.`,
   };
-
   const heading = {
     title: "Get in touch",
     descraption:
