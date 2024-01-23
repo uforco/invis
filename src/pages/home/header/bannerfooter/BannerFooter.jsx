@@ -27,7 +27,7 @@ const BannerFooter = () => {
   ];
   return (
     <div className="w-full py-20 pb-8 ">
-      <div className=" flex w-full justify-between items-center gap-10">
+      <div className=" flex w-full justify-between items-start gap-10">
         {
             data.map((item, inx)=> <ProcessCard item={item} key={inx} ></ProcessCard> )
         }
