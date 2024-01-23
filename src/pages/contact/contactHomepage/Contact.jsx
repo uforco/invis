@@ -22,7 +22,7 @@ const Contact = () => {
     <div>
       <OurHeader data={herderData}></OurHeader>
       <WidthControl>
-        <div className=" py-24 pb-0 ">
+        <div className=" py-24 mx-5 pb-0 ">
           <OurTitleSection heading={heading}></OurTitleSection>
         </div>
       </WidthControl>
