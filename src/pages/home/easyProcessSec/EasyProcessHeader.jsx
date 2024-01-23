@@ -1,6 +1,6 @@
 const EasyProcessHeader = () => {
   return (
-    <div className=" flex flex-col items-center gap-4 justify-center font-Poppins ">
+    <div className=" flex flex-col items-center gap-4 justify-center px-2 font-Poppins ">
       <h2 className=" text-white tracking-widest text-lg font-semibold  ">
         How to Start
       </h2>

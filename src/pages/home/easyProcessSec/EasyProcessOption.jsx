@@ -30,7 +30,7 @@ const EasyProcessOption = () => {
   ];
 
   return (
-    <div className="w-full grid gap-3 grid-cols-4 ">
+    <div className="w-full grid gap-16 sm:gap-9 lg:gap-3 sm:grid-cols-2 lg:grid-cols-4 ">
       {Option.map((data, inx) => (
         <EasyProcessCard data={data} key={inx}></EasyProcessCard>
       ))}

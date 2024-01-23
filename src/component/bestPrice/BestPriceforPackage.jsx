@@ -55,23 +55,35 @@ const BestPriceforPackage = () => {
       ],
     },
   ];
-
   return (
     <div>
       <WidthControl>
-        <div className=" my-24 mt-14 " >
+        <div className=" my-24 mt-14 mx-0 md:-ml-7 xl:ml-0 ">
           <div className=" flex justify-center items-center flex-col py-5  w-full ">
-            <h4 className=" text-lg font-semibold mb-2 capitalize " >Package</h4>
-            <h2 className=" capitalize pb-14  font-Poppins text-[#16205F] text-[42px] font-semibold ">
+            <h4 className=" text-lg font-semibold mb-2 capitalize ">Package</h4>
+            <h2 className=" capitalize pb-14 font-Poppins text-[#16205F] text-[42px] font-semibold ">
               the best price
             </h2>
           </div>
-          <div className=" flex justify-center items-center ">
-            <div className="grid grid-cols-3  ">
-              {
-                pricedetails.map((data, inx) => <PriceCard data={data} inxNum={inx} key={inx} ></PriceCard> )
-              }
+          <div className=" w-full flex justify-center ">
+            <div className="grid md:grid-cols-2 gap-0 md:gap-8 xl:gap-0 xl:grid-cols-3  ">
+              <div>
+                <PriceCard data={pricedetails[0]} inxNum={0}></PriceCard>
+              </div>
+              <div className=" block -mt-28 -mb-5 sm:-mb-4 md:hidden xl:block ">
+                <PriceCard data={pricedetails[1]} inxNum={1}></PriceCard>
+              </div>
+              <div className=" block md:hidden xl:block" >
+                <PriceCard data={pricedetails[2]} inxNum={2}></PriceCard>
+              </div>
+              {/* optional div */}
+              <div className=" mt-32  xl:mt-0 hidden md:block xl:hidden " >
+                <PriceCard data={pricedetails[1]} inxNum={1}></PriceCard>
+              </div>
             </div>
+          </div>
+          <div className="   -mt-60 -ml-60 justify-center hidden md:flex xl:hidden ">
+            <PriceCard data={pricedetails[2]} inxNum={2}></PriceCard>
           </div>
         </div>
       </WidthControl>

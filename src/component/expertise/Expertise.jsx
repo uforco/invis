@@ -1,21 +1,23 @@
 import WidthControl from "../../layout/widthControl/WidthControl";
 import ExpertiseHeader from "./ExpertiseHeader";
 import ExpertiseContain from "./ExpertiseContain";
-import { PropTypes } from 'prop-types';
-const Expertise = ({data}) => {
-  console.log(data)
+
+
+const Expertise = () => {
+
+
+
+
+
   return (
     <div className=" bg-white py-20 ">
       <WidthControl>
-        <div className=" flex flex-col gap-16 items-start justify-center " >
+        <div className=" flex flex-col gap-16 mx-4 items-start justify-center " >
           <ExpertiseHeader></ExpertiseHeader>
-          <ExpertiseContain ContainData={data} ></ExpertiseContain>
+          <ExpertiseContain ></ExpertiseContain>
         </div>
       </WidthControl>
     </div>
   );
 };
-Expertise.propTypes={
-  data: PropTypes.array
-}
 export default Expertise;

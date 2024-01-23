@@ -3,9 +3,9 @@ import PackageDetails from "./PackageDetails";
 const PriceCard = ({ data, inxNum }) => {
   return (
     <div
-      className={` relative  shadow-gray-500 rounded-xl shadow-lg ${
-        inxNum + 1 === 2 ? "scale-110 z-10 " : "scale-95 z-0 "
-      } py-12 w-96 border bg-gray-100  overflow-hidden `}
+      className={` relative  h-[690px] overflow-hidden shadow-gray-500 rounded-xl shadow-lg ${
+        inxNum + 1 === 2 ? " scale-100 border-[3px] border-[#ffbe32] md:border-0 sm:scale-105 md:scale-110 z-10 " : "scale-95 z-0 "
+      } py-12 w-[376px] sm:w-96 border bg-gray-100  overflow-hidden `}
     >
       <div
         className={
