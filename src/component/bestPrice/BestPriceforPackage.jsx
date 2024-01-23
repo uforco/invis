@@ -70,7 +70,7 @@ const BestPriceforPackage = () => {
               <div>
                 <PriceCard data={pricedetails[0]} inxNum={0}></PriceCard>
               </div>
-              <div className=" block -mt-28 -mb-5 sm:-mb-4 md:hidden xl:block ">
+              <div className=" block -mt-28 -mb-5 sm:-mb-4 xl:m-0 md:hidden xl:block ">
                 <PriceCard data={pricedetails[1]} inxNum={1}></PriceCard>
               </div>
               <div className=" block md:hidden xl:block" >

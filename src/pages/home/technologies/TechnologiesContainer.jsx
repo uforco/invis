@@ -7,7 +7,7 @@ import Typewriter from "react-ts-typewriter";
 const TechnologiesContainer = () => {
   return (
     <div className=" mt-10 ">
-      <div className=" grid font-Poppins grid-cols-4 gap-2 ">
+      <div className=" grid font-Poppins grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-2 ">
         <div className=" flex gap-1 justify-center items-center ">
           <div className=" flex justify-center items-center h-[80px] w-[80px] ">
             <div className=" withanimation ">

@@ -14,8 +14,8 @@ const ConnectWithFromPage = () => {
     <Card color="transparent" shadow={false}>
       <form className=" py-2  w-full ">
         <div className=" flex flex-col w-full pt-8 py-3 gap-6">
-          <div className=" flex justify-between w-full items-center gap-5 ">
-            <div className=" w-[250px] " >
+          <div className=" flex flex-col md:flex-row justify-between w-full items-center gap-5 ">
+            <div className=" w-full md:w-[270px] lg:w-[250px] xl:w-[280px] ">
               <Typography
                 variant="h6"
                 color="blue-gray"
@@ -32,7 +32,7 @@ const ConnectWithFromPage = () => {
                 }}
               />
             </div>
-            <div className=" w-[250px] " >
+            <div className=" w-full md:w-[270px] lg:w-[250px] xl:w-[280px]">
               <Typography
                 variant="h6"
                 color="blue-gray"
@@ -50,8 +50,8 @@ const ConnectWithFromPage = () => {
               />
             </div>
           </div>
-          <div className=" flex justify-between w-full items-center gap-5 ">
-            <div className=" w-[250px] " >
+          <div className=" flex flex-col md:flex-row justify-between w-full items-center gap-5 ">
+            <div className=" w-full md:w-[270px] lg:w-[250px] xl:w-[280px]   ">
               <Typography
                 variant="h6"
                 color="blue-gray"
@@ -68,7 +68,7 @@ const ConnectWithFromPage = () => {
                 }}
               />
             </div>
-            <div className=" w-[250px] " >
+            <div className=" w-full md:w-[270px] lg:w-[250px] xl:w-[280px] ">
               <Typography
                 variant="h6"
                 color="blue-gray"
@@ -120,11 +120,11 @@ const ConnectWithFromPage = () => {
             }
             containerProps={{ className: "-ml-2.5" }}
           />
-          <Link to={""} className=" ml-8 -mt-2 font-semibold hover:underline ">
+          <Link to={""} className=" ml-8 sm:-mt-2 font-semibold hover:underline ">
             Privacy Policy
           </Link>
         </div>
-        <Button className=" transition group duration-500 ease-in-out shadow-sm shadow-[#ff99007a] flex justify-center items-center  gap-2 rounded-lg bg-gradient-to-r hover:bg-gradient-to-br p-3 w-1/2 from-[#f90]  to-[#F2CB00] text-sm text-white font-Poppins font-medium ">
+        <Button className=" transition group duration-500 ease-in-out shadow-sm shadow-[#ff99007a] flex justify-center items-center  gap-2 rounded-lg bg-gradient-to-r hover:bg-gradient-to-br p-3 w-full lg:w-1/2 from-[#f90]  to-[#F2CB00] text-sm text-white font-Poppins font-medium ">
           <div className=" relative ">
             <h2 className=" px-4 pr-14 uppercase font-Poppins font-semibold ">
               GET CONSULTATION

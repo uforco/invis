@@ -3,7 +3,7 @@ const OwnerContactCard = ({ data, inx }) => {
   let x = inx + 1;
   return (
     <div
-      className={` ${x > 1 ? "justify-end" : "justify-start"} w-full flex  `}
+      className={` ${x > 1 ? "justify-start md:justify-end" : "justify-start md:justify-start"} w-full flex  `}
     >
       <div>
         <div

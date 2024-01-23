@@ -26,7 +26,7 @@ const BannerFooter = () => {
     },
   ];
   return (
-    <div className="w-full flex justify-center items-center px-0 lg:px-1 py-20 pb-8 ">
+    <div className="w-full flex justify-center items-center px-0 pt-16 lg:pt-6 2xl:pt-20 lg:px-1 py-20 pb-8 ">
       <div>
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  justify-between items-start gap-7">
           {data.map((item, inx) => (

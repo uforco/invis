@@ -27,9 +27,9 @@ const OwnerContact = () => {
   ];
 
   return (
-    <div className=" my-10 " >
+    <div >
       <WidthControl>
-        <div className=" grid gap-1 grid-cols-3 py-16 ">
+        <div className=" grid gap-14 md:gap-1 grid-cols-1 md:grid-cols-3 py-10 pt-0 mx-5">
           {employeeInfo?.map((item, inx) => (
             <OwnerContactCard
               data={item}

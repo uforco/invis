@@ -22,14 +22,14 @@ const Contact = () => {
     <div>
       <OurHeader data={herderData}></OurHeader>
       <WidthControl>
-        <div className=" py-24 pb-16 ">
+        <div className=" py-24 pb-0 ">
           <OurTitleSection heading={heading}></OurTitleSection>
         </div>
       </WidthControl>
       <ConnectWithHireToday></ConnectWithHireToday>
       <OwnerContact></OwnerContact>
       <WidthControl>
-        <div className="mb-28">
+        <div className="mb-20 mx-5 ">
           <FollowUs titleSize={"36px"} iconSize={"38px"}></FollowUs>
         </div>
       </WidthControl>
