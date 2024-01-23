@@ -6,7 +6,7 @@ import YouTube from "./../../assets/FollowUs/YouTube.png";
 import { Link } from "react-router-dom";
 import { PropTypes } from "prop-types";
 
-const FollowUs = ({ iconSize = 32 }) => {
+const FollowUs = ({ iconSize, titleSize}) => {
   const socialIcon = [
     {
       icon: Linkdin,
@@ -32,14 +32,15 @@ const FollowUs = ({ iconSize = 32 }) => {
 
   return (
     <div>
-      <h2 className=" font-Poppins text-[#16205F] pb-6 text-4xl font-semibold ">
+      <h2 style={{ fontSize: titleSize || "32px" }} className=" font-Poppins text-[#16205F] te pb-3  font-semibold ">
         Follow us
       </h2>
       <div className=" flex gap-5  ">
         {socialIcon?.map((logo, inx) => (
           <Link to={logo?.link} key={inx}>
             <img
-              className={`w-[${iconSize}px]`}
+              style={{ width: iconSize || "16px" }}
+              // className={iconSize}
               src={logo?.icon}
               alt={logo?.link}
             />
@@ -50,6 +51,7 @@ const FollowUs = ({ iconSize = 32 }) => {
   );
 };
 FollowUs.propTypes = {
-  iconSize: PropTypes.number,
+  iconSize: PropTypes.string,
+  titleSize: PropTypes.string,
 };
 export default FollowUs;

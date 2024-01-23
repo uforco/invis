@@ -11,6 +11,7 @@ import dedicated from "./../../../assets/Expertise/dedicated.png"
 import StaffAugmentation from "./../../../assets/Expertise/StaffAugmentation.png"
 import SoftwareOutsourcing from "./../../../assets/Expertise/SoftwareOutsourcing.png"
 import RemoteOffice from "./../../../assets/Expertise/RemoteOffice.png"
+import FooterPage from './../../../component/footerSec/footerPage/FooterPage';
 
 const Home = () => {
 
@@ -50,6 +51,7 @@ const Home = () => {
       <BestPriceforPackage></BestPriceforPackage>
       <Technologies></Technologies>
       <ConnectWithHireToday></ConnectWithHireToday>
+      <FooterPage></FooterPage>
     </div>
   );
 };

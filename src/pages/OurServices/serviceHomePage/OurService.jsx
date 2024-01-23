@@ -4,6 +4,7 @@ import OurServicelist from "../ourService/OurServiceList";
 import ConnectWithHireToday from "./../../../component/ConnectSecBox/ConnectWithHireToday";
 import headerimg from "./../../../assets/OurService/headerimg.png";
 import OurHeader from './../../../component/ourHeader/OurHeader';
+import FooterPage from './../../../component/footerSec/footerPage/FooterPage';
 const OurService = () => {
 
   const herderData = {
@@ -24,6 +25,7 @@ const OurService = () => {
       <div className=" py-10 " >
         <ConnectWithHireToday></ConnectWithHireToday>
       </div>
+      <FooterPage></FooterPage>
     </div>
   );
 };

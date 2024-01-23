@@ -5,6 +5,7 @@ import WhyChoose from "../whyChoose/WhyChoose";
 import headerimg from "./../../../assets/OurService/headerimg.png";
 import HowToStartCard from './../howtostartCard/HowToStartCard';
 import ConnectWithHireToday from './../../../component/ConnectSecBox/ConnectWithHireToday';
+import FooterPage from './../../../component/footerSec/footerPage/FooterPage';
 const HowToStartHome = () => {
   const herderData = {
     headerImg: headerimg,
@@ -27,6 +28,7 @@ const HowToStartHome = () => {
         </div>
       </WidthControl>
       <ConnectWithHireToday></ConnectWithHireToday>
+      <FooterPage></FooterPage>
     </div>
   );
 };

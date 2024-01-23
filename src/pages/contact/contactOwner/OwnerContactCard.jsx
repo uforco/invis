@@ -44,7 +44,7 @@ const OwnerContactCard = ({ data, inx }) => {
   );
 };
 OwnerContactCard.propTypes = {
-  data: PropTypes.array,
+  data: PropTypes.object,
   inx: PropTypes.number,
 };
 export default OwnerContactCard;

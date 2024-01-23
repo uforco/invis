@@ -5,6 +5,7 @@ import OurHeader from "./../../../component/ourHeader/OurHeader";
 import WidthControl from "./../../../layout/widthControl/WidthControl"; 
 import OwnerContact from './../contactOwner/OwnerContact';
 import FollowUs from './../../../component/followus/FollowUs';
+import FooterPage from './../../../component/footerSec/footerPage/FooterPage';
 const Contact = () => {
   const herderData = {
     headerImg: headerimg,
@@ -29,9 +30,10 @@ const Contact = () => {
       <OwnerContact></OwnerContact>
       <WidthControl>
         <div className=" mb-28 " >
-          <FollowUs iconSize={45} ></FollowUs>
+          <FollowUs titleSize={"36px"} iconSize={"38px"} ></FollowUs>
         </div>
       </WidthControl>
+      <FooterPage></FooterPage>
     </div>
   );
 };
