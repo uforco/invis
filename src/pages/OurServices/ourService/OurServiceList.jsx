@@ -47,7 +47,7 @@ const OurServiceList = () => {
         <div className=" flex justify-center items-center pt-10 py-16 " >
             <h2 className=" text-5xl font-bold text-[#16205F] " >Our Services</h2>
         </div>
-      <div className=" grid gap-5 grid-cols-2 ">
+      <div className=" grid gap-5 grid-cols-1 mx-4 md:grid-cols-2 ">
         {OurService?.map((item, inx) => (
           <OurServiceListCard data={item} key={inx}></OurServiceListCard>
         ))}

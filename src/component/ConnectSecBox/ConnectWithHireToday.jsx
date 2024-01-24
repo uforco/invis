@@ -3,9 +3,9 @@ import ConnectWithLeftSide from "./ConnectWithLeftSide";
 import ConnectWithRightSide from './ConnectWithRightSide';
 const ConnectWithHireToday = () => {
   return (
-    <div className=" py-8 my-10 " >
+    <div className=" py-8 my-10 mb-5 " >
       <WidthControl>
-        <div className=" flex flex-col my-10 lg:flex-row justify-center items-center " >
+        <div className=" flex flex-col my-10 mb-0 lg:flex-row justify-center items-center " >
           <ConnectWithLeftSide></ConnectWithLeftSide>
           <ConnectWithRightSide></ConnectWithRightSide> 
         </div>

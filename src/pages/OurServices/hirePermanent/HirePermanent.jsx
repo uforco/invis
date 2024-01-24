@@ -3,7 +3,7 @@ import dedicated from "./../../../assets/Expertise/dedicated.png";
 import StaffAugmentation from "./../../../assets/Expertise/StaffAugmentation.png";
 import SoftwareOutsourcing from "./../../../assets/Expertise/SoftwareOutsourcing.png";
 import RemoteOffice from "./../../../assets/Expertise/RemoteOffice.png";
-import OurTitleSection from './../../../component/ourTitleSection/OurTitleSection';
+import OurTitleSection from "./../../../component/ourTitleSection/OurTitleSection";
 const HirePermanent = () => {
   const ContainData = [
     {
@@ -31,14 +31,17 @@ const HirePermanent = () => {
 
   const heading = {
     title: "Hire Permanent and Remote Developers",
-    descraption: "From full-time remote engineering teams to hourly contractors, work with remote devs as needed"
-  }
+    descraption:
+      "From full-time remote engineering teams to hourly contractors, work with remote devs as needed",
+  };
 
   return (
-    <div className=" py-24 flex flex-col gap-16 ">
-      <OurTitleSection heading={heading} ></OurTitleSection>
-      <div>
-        <div className=" grid grid-cols-2 gap-32 gap-y-4 ">
+    <div className=" py-24 pt-12 flex flex-col gap-16 ">
+      <div className=" mx-4 " >
+        <OurTitleSection heading={heading}></OurTitleSection>
+      </div>
+      <div className=" mx-4 flex justify-center ">
+        <div className=" grid grid-cols-1 w-full md:grid-cols-2 gap-y-12 md:gap-10   ">
           {ContainData?.map((item, inx) => (
             <ProcessCard item={item} key={inx}></ProcessCard>
           ))}

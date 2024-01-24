@@ -15,19 +15,19 @@ const CompanyInfo = () => {
           </p>
           <div className=" flex justify-start gap-3 items-center ">
             <span>
-              <img src={phone} alt="phone" />
+              <img className=" w-6 h-6 " src={phone} alt="phone" />
             </span>
             <p>+94 713249222</p>
           </div>
           <div className=" flex justify-start gap-3  ">
             <span>
-              <img src={email} alt="phone" />
+              <img className=" w-6 h-6 " src={email} alt="phone" />
             </span>
             <p>info@invis.com</p>
           </div>
           <div className=" flex justify-start gap-3 ">
             <span>
-              <img src={Location} alt="phone" />
+              <img className=" w-6 h-6 " src={Location} alt="phone" />
             </span>
             <p>R9FV+29J, ECB Chattar, Dhaka</p>
           </div>

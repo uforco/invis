@@ -75,10 +75,10 @@ const FooterPage = () => {
   ];
 
   return (
-    <div className=" border-t my-10 mb-6 ">
+    <div className=" border-t my-0 mb-6 ">
       <WidthControl>
-        <div className=" py-6 ">
-          <div className=" grid gap-3 grid-cols-4 ">
+        <div className=" py-6 mx-5 ">
+          <div className=" grid gap-20 gap-y-10 lg:gap-0 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 ">
             <CompanyInfo></CompanyInfo>
             {companyInfoLink?.map((data, inx) => (
               <InfoCard data={data} inx={inx} key={inx}></InfoCard>
@@ -91,7 +91,7 @@ const FooterPage = () => {
       </WidthControl>
       <div className="pt-6 mt-8 border-t ">
         <WidthControl>
-          <p>Copyright © 2024 - All right reserved by Invis Tech Inc.</p>
+          <p className=" mx-5 text-center " >Copyright © 2024 - All right reserved by Invis Tech Inc.</p>
         </WidthControl>
       </div>
     </div>
