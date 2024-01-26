@@ -2,6 +2,7 @@ import ProcessCard from "../../../../component/processCard/ProcessCard";
 import Architect from "./../../../../assets/bannerfooter/Architect.png";
 import softwareapplication from "./../../../../assets/bannerfooter/software-application.png";
 import technicalsupport from "./../../../../assets/bannerfooter/technical-support.png";
+import BannerInfoSlider from "./BannerInfoSlider";
 
 const BannerFooter = () => {
   const data = [
@@ -26,13 +27,18 @@ const BannerFooter = () => {
     },
   ];
   return (
-    <div className="w-full flex justify-center items-center px-0 pt-16 lg:pt-6 2xl:pt-20 lg:px-1 py-20 pb-8 ">
-      <div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  justify-between items-start gap-7">
-          {data.map((item, inx) => (
-            <ProcessCard item={item} key={inx}></ProcessCard>
-          ))}
+    <div>
+      <div className="w-full hidden sm:flex justify-center items-center px-0 pt-16 lg:pt-6 2xl:pt-20 lg:px-1 py-20 pb-8 ">
+        <div>
+          <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-full  justify-between items-start gap-7">
+            {data.map((item, inx) => (
+              <ProcessCard item={item} key={inx}></ProcessCard>
+            ))}
+          </div>
         </div>
+      </div>
+      <div className=" block m-4 sm:hidden " >
+        <BannerInfoSlider data={data}></BannerInfoSlider>
       </div>
     </div>
   );

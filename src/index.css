@@ -2,7 +2,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .reaclogo {
 	-webkit-animation: reaclogo 5s ;			
 	-moz-animation: reaclogo 5s ;
@@ -13,7 +12,6 @@
 	-ms-animation-timing-function: linear;
 	animation-timing-function: linear	
 }
-
 @keyframes reaclogo {
     0%{ 
         -moz-transform: rotate(0deg);
@@ -37,7 +35,6 @@
 	animation-timing-function: linear;
     overflow: hidden;
 }
-
 @keyframes withanimation {
     0%{ 
         width: 0px;
@@ -48,4 +45,10 @@
         height: 70px;
     }
 }
-
+.swiper-pagination-bullet-active{
+    background-color: #fec028 ;
+}
+.swiper-button-next,
+.swiper-button-prev{
+    color: #fec028;
+}

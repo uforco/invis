@@ -3,11 +3,12 @@ import mongodb from "./../../../assets/Technologies/mongodb-96.png";
 import express from "./../../../assets/Technologies/express-js-96.png";
 import nodejs from "./../../../assets/Technologies/nodejs96.png";
 import Typewriter from "react-ts-typewriter";
+import SliderTech from "./SliderTech";
 
 const TechnologiesContainer = () => {
   return (
     <div className=" mt-10 ">
-      <div className=" grid font-Poppins grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-2 ">
+      <div className=" hidden sm:grid font-Poppins grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-2 ">
         <div className=" flex gap-1 justify-center items-center ">
           <div className=" flex justify-center items-center h-[80px] w-[80px] ">
             <div className=" withanimation ">
@@ -20,6 +21,7 @@ const TechnologiesContainer = () => {
             </h2>
           </div>
         </div>
+
         <div className=" flex gap-1 justify-center items-center ">
           <div className=" flex justify-center items-center h-[80px] w-[80px] ">
             <div className="  withanimation ">
@@ -32,6 +34,7 @@ const TechnologiesContainer = () => {
             </h2>
           </div>
         </div>
+
         <div className=" flex gap-3 justify-center items-center ">
           <div className=" flex justify-center items-center h-[80px] w-[80px] ">
             <div className="  withanimation ">
@@ -44,6 +47,7 @@ const TechnologiesContainer = () => {
             </h2>
           </div>
         </div>
+
         <div className=" flex flex-row-reverse gap-1 justify-center items-center ">
           <div className=" flex justify-center items-center h-[80px] w-[80px] ">
             <div className=" withanimation ">
@@ -56,6 +60,9 @@ const TechnologiesContainer = () => {
             </h2>
           </div>
         </div>
+      </div>
+      <div className=" block sm:hidden ">
+        <SliderTech></SliderTech>
       </div>
     </div>
   );
