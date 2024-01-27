@@ -37,6 +37,7 @@ const BannerFooter = () => {
           </div>
         </div>
       </div>
+      {/* slider */}
       <div className=" block m-4 sm:hidden " >
         <BannerInfoSlider data={data}></BannerInfoSlider>
       </div>

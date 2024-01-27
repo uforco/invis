@@ -38,7 +38,7 @@ const WhyChooseCard = () => {
 
   return (
     <div className=" pt-5 ">
-      <div className=" grid grid-cols-3 gap-24 gap-y-1 ">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:sm:grid-cols-3 gap-24 gap-y-1 ">
         {ContainData?.map((item, inx) => (
           <ProcessCard item={item} key={inx}></ProcessCard>
         ))}

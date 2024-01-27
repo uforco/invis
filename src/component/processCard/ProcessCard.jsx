@@ -2,7 +2,7 @@ import { PropTypes } from 'prop-types';
 
 const ProcessCard = ({item}) => {
   return (
-    <div className=" w-auto lg:w-96 2xl:w-full overflow-hidden  lg:px-1 p-6 px-1 ">
+    <div className=" w-auto 2xl:w-96  overflow-hidden  lg:px-1 p-6 px-1 ">
       <div className=" flex flex-col lg:flex-row gap-3">
         <div className=' flex lg:block justify-start sm:justify-center  ' >
           <div className=" bg-yellow-300 rounded w-[60px] overflow-hidden p-[5px] " >

@@ -37,6 +37,7 @@ const ExpertiseContain = () => {
           <ExpertiseContainCard data={data} key={inx}></ExpertiseContainCard>
         ))}
       </div>
+      {/* slider */}
       <div className=" block sm:hidden " >
         <ExpertiseContainSlider expertiseInfo={ContainData} ></ExpertiseContainSlider>
       </div>

@@ -25,7 +25,7 @@ const HowToStartCard = () => {
 
   return (
     <div className=" py-16 pt-4 " >
-      <div className=" grid grid-cols-3 gap-24 gap-y-4 ">
+      <div className=" grid  lg:grid-cols-2 gap-12 2xl:gap-24 gap-y-4 overflow-hidden ">
         {ContainData?.map((item, inx) => (
           <ProcessCard item={item} key={inx}></ProcessCard>
         ))}

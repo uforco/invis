@@ -101,7 +101,7 @@ const NavberManu = () => {
 
   return (
     // <div className="-m-6 max-h-[768px] w-[calc(100%+48px)] overflow-scroll">
-    <div className=" relative w-full h-14 my-1 ">
+    <div className=" relative w-full h-14 mb-1 ">
       <div className=" fixed z-50 top-0 right-0 left-0 ">
         <Navbar className="sticky top-0 z-50 h-max max-w-full rounded-none px-4 py-2 lg:px-8 lg:py-4">
           <WidthControl>

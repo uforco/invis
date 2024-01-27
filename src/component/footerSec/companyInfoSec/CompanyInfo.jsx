@@ -27,7 +27,7 @@ const CompanyInfo = () => {
           </div>
           <div className=" flex justify-start gap-3 ">
             <span>
-              <img className=" w-7 h-7 " src={Location} alt="phone" />
+              <img className=" -ml-[2px] w-8 lg:w-10 2xl:w-8 " src={Location} alt="phone" />
             </span>
             <p>311 Marshall cres, Orangeville, ON, L9W 4Y5</p>
           </div>
