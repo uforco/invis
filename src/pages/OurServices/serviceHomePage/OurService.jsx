@@ -5,6 +5,7 @@ import ConnectWithHireToday from "./../../../component/ConnectSecBox/ConnectWith
 import headerimg from "./../../../assets/OurService/headerimg.png";
 import OurHeader from './../../../component/ourHeader/OurHeader';
 import FooterPage from './../../../component/footerSec/footerPage/FooterPage';
+import NavberManu from "../../../component/navberManu/NavberManu";
 const OurService = () => {
 
   const herderData = {
@@ -15,6 +16,7 @@ const OurService = () => {
   }
   return (
     <div>
+      <NavberManu></NavberManu>
       <OurHeader data={herderData} ></OurHeader>
       <WidthControl>
         <div>

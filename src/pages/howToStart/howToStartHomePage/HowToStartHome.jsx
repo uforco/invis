@@ -6,6 +6,7 @@ import headerimg from "./../../../assets/OurService/headerimg.png";
 import HowToStartCard from './../howtostartCard/HowToStartCard';
 import ConnectWithHireToday from './../../../component/ConnectSecBox/ConnectWithHireToday';
 import FooterPage from './../../../component/footerSec/footerPage/FooterPage';
+import NavberManu from "../../../component/navberManu/NavberManu";
 const HowToStartHome = () => {
   const herderData = {
     headerImg: headerimg,
@@ -19,6 +20,7 @@ const HowToStartHome = () => {
   };
   return (
     <div>
+      <NavberManu></NavberManu>
       <OurHeader data={herderData}></OurHeader>
       <WidthControl>
         <div className=" py-24 pb-16 ">

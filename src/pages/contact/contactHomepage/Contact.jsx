@@ -6,6 +6,7 @@ import WidthControl from "./../../../layout/widthControl/WidthControl";
 import OwnerContact from "./../contactOwner/OwnerContact";
 import FollowUs from "./../../../component/followus/FollowUs";
 import FooterPage from "./../../../component/footerSec/footerPage/FooterPage";
+import NavberManu from "../../../component/navberManu/NavberManu";
 const Contact = () => {
   const herderData = {
     headerImg: headerimg,
@@ -20,6 +21,7 @@ const Contact = () => {
 
   return (
     <div>
+      <NavberManu></NavberManu>
       <OurHeader data={herderData}></OurHeader>
       <WidthControl>
         <div className=" py-24 mx-5 pb-0 ">

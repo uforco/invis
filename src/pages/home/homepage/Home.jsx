@@ -6,16 +6,15 @@ import Technologies from './../technologies/Technologies';
 import ConnectWithHireToday from './../../../component/ConnectSecBox/ConnectWithHireToday';
 import BestPriceforPackage from './../../../component/bestPrice/BestPriceforPackage';
 import Expertise from './../../../component/expertise/Expertise';
-// Expertise image store
 
+// Expertise image store
 import FooterPage from './../../../component/footerSec/footerPage/FooterPage';
+import NavberManu from './../../../component/navberManu/NavberManu';
 
 const Home = () => {
-
-  
-
   return (
     <div>
+      <NavberManu></NavberManu>
       <WidthControl>
         <>
           <Banner></Banner>
