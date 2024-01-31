@@ -8,35 +8,30 @@ import {
   Typography,
   Textarea,
 } from "@material-tailwind/react";
-import { useForm } from "react-hook-form"
+import { useForm } from "react-hook-form";
 // import Server_Url from "../../hook/Server_Url";
-import Server_Url from './../../hook/Server_Url';
+import Server_Url from "./../../hook/Server_Url";
 
 const ConnectWithFromPage = () => {
-
-
-  const postEmail = Server_Url()
-
+  const postEmail = Server_Url();
   const {
     register,
     handleSubmit,
     reset,
     // watch,
     // formState: { errors },
-  } = useForm()
-
+  } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data)
-    postEmail.post("/email", data)
-     .then(({data}) => {
-      console.log(data)
+    console.log(data);
+    postEmail.post("/email", data).then(({ data }) => {
+      console.log(data);
       // reset()
-      if(data?.mail){
-        reset()
+      if (data?.mail) {
+        reset();
       }
-     })
-  }
+    });
+  };
 
   // console.log(watch("Checkbox"))
 
@@ -60,7 +55,7 @@ const ConnectWithFromPage = () => {
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
-                {...register("company", { required: true} )}
+                {...register("company", { required: true })}
               />
             </div>
             <div className=" w-full md:w-[270px] lg:w-[250px] xl:w-[280px]">
@@ -78,7 +73,7 @@ const ConnectWithFromPage = () => {
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
-                {...register("name", { required: true} )}
+                {...register("name", { required: true })}
               />
             </div>
           </div>
@@ -99,7 +94,7 @@ const ConnectWithFromPage = () => {
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
-                {...register("number", { required: true} )}
+                {...register("number", { required: true })}
               />
             </div>
             <div className=" w-full md:w-[270px] lg:w-[250px] xl:w-[280px] ">
@@ -117,7 +112,7 @@ const ConnectWithFromPage = () => {
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
-                {...register("gmail", { required: true} )}
+                {...register("gmail", { required: true })}
               />
             </div>
           </div>
@@ -138,14 +133,13 @@ const ConnectWithFromPage = () => {
                 labelProps={{
                   className: "before:content-none after:content-none",
                 }}
-                {...register("project_detail", { required: true} )}
+                {...register("project_detail", { required: true })}
               />
             </div>
           </div>
         </div>
         <div className=" flex mb-6 flex-col ">
           <Checkbox
-            
             label={
               <Typography
                 variant="small"
@@ -156,13 +150,19 @@ const ConnectWithFromPage = () => {
               </Typography>
             }
             containerProps={{ className: "-ml-2.5" }}
-            {...register("Checkbox", { required: true} )}
+            {...register("Checkbox", { required: true })}
           />
-          <Link to={""} className=" ml-8 sm:-mt-2 font-semibold hover:underline ">
+          <Link
+            to={""}
+            className=" ml-8 sm:-mt-2 font-semibold hover:underline "
+          >
             Privacy Policy
           </Link>
         </div>
-        <Button type="submit" className=" transition group duration-500 ease-in-out shadow-sm shadow-[#ff99007a] flex justify-center items-center  gap-2 rounded-lg bg-gradient-to-r hover:bg-gradient-to-br p-3 w-full lg:w-1/2 from-[#f90]  to-[#F2CB00] text-sm text-white font-Poppins font-medium ">
+        <Button
+          type="submit"
+          className=" transition group duration-500 ease-in-out shadow-sm shadow-[#ff99007a] flex justify-center items-center  gap-2 rounded-lg bg-gradient-to-r hover:bg-gradient-to-br p-3 w-full lg:w-1/2 from-[#f90]  to-[#F2CB00] text-sm text-white font-Poppins font-medium "
+        >
           <div className=" relative ">
             <h2 className=" px-4 pr-14 uppercase font-Poppins font-semibold ">
               GET CONSULTATION
